@@ -1,0 +1,204 @@
+body {
+  padding-top: 50px;
+}
+
+/* Signin
+------------------------- */
+.form-signin, .links {
+  max-width: 330px;
+  margin: 0 auto;
+  padding-left: 15px;
+}
+
+.form-signin input[type="text"] {
+  margin-bottom: 5px;
+}
+
+.welcome {
+  color: #999;
+  display: block;
+  padding: 15px 15px;
+}
+
+/* containers
+------------------------- */
+.side-container {
+  padding: 10px;
+  min-height: 200px;
+  background-color: #f7f5fa;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* Side nav
+------------------------- */
+.nav > li.active {
+  font-weight: bold;
+}
+/* Side nav
+------------------------- */
+.bs-header {
+  font-weight: bold;
+  color: #413B3B;
+  background-color: #f7f5fa;
+  margin-bottom: 20px;
+}
+
+
+/* Configurações de css para a APS 
+ *
+ * -------------------*/
+
+    /* Apresentaçaão dos produtos
+     * na página inicial
+     * ---------------- */
+.product-presentation {
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    text-align: center ;
+}
+
+.product-name {
+    padding-top: 5px ;
+    font-size: 20px ;
+    color: blue ;
+}
+
+.product-price {
+    
+   /* padding-right: 100px; */
+    color: black ;
+    text-decoration: line-through ;
+}
+
+.product-discount {
+    /*  padding-right: 100px; */
+     font-size: large ;
+     color: red ;
+}
+    /* Número 
+     * -------------------*/
+
+
+.clearfix {
+    width: 1200px ;
+    margin-bottom: -82px ;
+}
+
+.total-cart {
+ float: right; 
+  width: 106px ;
+
+}
+
+.total-cart p {
+    margin-bottom: -2px ; 
+    color: red; 
+    font-size: 26px ;
+}
+
+
+.section-center {
+    margin: 0 auto ;
+    width: 1000px ;
+}
+
+/*  Área administrativa
+ *  ------------------*/
+.admin-main .row {
+    width: 1300px ;
+    margin: 0 auto ;    
+    padding-top: 2% ;
+
+}
+
+.admin-main table {
+    width: 486px ;
+}
+
+.table-views-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.table-views-quantity {
+    text-align: center ;
+}
+
+.table-views-title-quantity {
+    text-align: center ;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Área para finalizar a compra
+ * -------------------*/
+.form-buy {
+    margin: 0 auto;
+    width: 1100px;
+}
+
+.total-to-pay {
+    text-decoration: bold ;
+    font-size: 17px ;
+}
+
+table tr td input {
+
+    width: 50px;
+    text-align: center;
+    
+}
+
+.table-title {
+    font-size: 17px;
+    font-weight: bold;    
+}
+
+.table-options {
+    text-align: center ;
+     font-size: 17px;
+    font-weight: bold; 
+}
+
+.page-buy-title {
+    text-align: center;
+    margin-bottom: 21px;
+
+}
+
+.buy-form {
+    margin-left: 17px;
+    margin-right: 22px;
+}
+
+#finish-buy {
+    float: left;
+    width: 182px;
+    height: 51px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Fale Conosco
+ * ---------------*/
+
+.contacts form {
+    width: 700px ;
+    margin-left: 14px ;
+    padding-right: 392px ;
+}
+
+.contacts {
+    margin-left: 33px;
+    margin-right: 69px;    
+}
+
+
+/* Mensagens Flash
+ * -------------*/
+.flash-message {
+    margin-top: 10px;
+    margin-left: 23px;
+    margin-right: 45px;    
+}
